@@ -1,5 +1,5 @@
 import React from "react";
-import './stylesheets/Buttons.css'
+import '../stylesheets/Buttons.css'
 export const Button = (props) =>{
   const isOperator = value => {
     return isNaN(value) && (value !== '.') && (value !== '=')
