@@ -4,4 +4,28 @@
   align-items: center;
   flex: 1 1;
   margin: 5px;
+  padding: 10px;
+  background-color: darkgray;
+  cursor: pointer;
+  user-select: none;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  
+}
+
+
+
+.container-button:hover {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(237, 203, 129, 1) 100%);
+}
+
+.operator {
+  background-color: orange;
+}
+
+.operator:hover {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(237, 203, 129, 1) 100%);
 }
