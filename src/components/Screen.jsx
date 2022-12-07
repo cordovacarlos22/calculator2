@@ -1,10 +1,10 @@
 import React from "react";
 import '../stylesheets/Screen.css'
 
-export const  Screen  = ({numInput}) => {
+export const  Screen = ({Input}) => {
   return(
     <div className="screenInput">
-      {numInput}
+      {Input}
     </div>
   );
 }
